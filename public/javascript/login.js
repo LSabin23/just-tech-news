@@ -43,7 +43,7 @@ async function loginFormHandler (event) {
 
     if (response.ok) {
       // to see the response in DevTools > Network > Headers you need to comment out the redirect
-      document.location.replace('/')
+      document.location.replace('/dashboard')
       // console.log('success')
     } else {
       alert(response.statusText)
